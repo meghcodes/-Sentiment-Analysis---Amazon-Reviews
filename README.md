@@ -1,6 +1,6 @@
 #  Sentiment Analysis on Amazon Product Reviews
 
-This project performs sentiment analysis on Amazon product reviews using Python and TextBlob. It classifies each review as Positive, Negative, or Neutral, and visualizes the sentiment distribution using Matplotlib and Tableau.
+This project performs sentiment analysis on Amazon product reviews using Python and TextBlob. The project applies AI-powered Natural Language Processing using TextBlob, a pre-trained sentiment analysis model, to classify Amazon product reviews as Positive, Negative, or Neutral, and visualizes the sentiment distribution using Matplotlib and Tableau.
 
 ---
 
@@ -34,3 +34,12 @@ This project performs sentiment analysis on Amazon product reviews using Python 
 - Data cleaning and visualization
 - Sentiment modeling using AI tools
 
+---
+### AI/NLP Workflow
+
+- Used **TextBlob**, a pre-trained NLP model built on NLTK and Pattern
+- Extracted **sentiment polarity scores** for each review
+- Automatically classified review sentiment using AI logic:
+  - Polarity > 0 → Positive
+  - Polarity < 0 → Negative
+  - Polarity = 0 → Neutral
